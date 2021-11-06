@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.dinner.dinnergenerator.DinnerGeneratorApplication server
+web: java -cp target/classes:target/dependency/* org.springframework.boot.loader.JarLauncher server
