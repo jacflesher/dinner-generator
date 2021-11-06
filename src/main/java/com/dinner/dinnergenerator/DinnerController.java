@@ -18,10 +18,10 @@ public DinnerController(MenuService menuService){
 MenuProperties whatsForDinner() throws Exception {
 
     MenuProperties builder = MenuProperties.builder()
-    .meat(this.menuService.getMeat())
-    .vegetable(this.menuService.getVegetable())
-    .starch(this.menuService.getStarch())
-    .alternative(this.menuService.getAlternative())
+    .meat(this.menuService.menuItem("meats"))
+    .vegetable(this.menuService.menuItem("vegetables"))
+    .starch(this.menuService.menuItem("starches"))
+    .alternative(this.menuService.menuItem("alternatives"))
     .build();
 
     return builder;
