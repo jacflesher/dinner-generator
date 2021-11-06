@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.dinner.dinnergenerator.DinnerGeneratorApplication server
+web: java -jar build/libs/dinner-generator-0.0.1-SNAPSHOT.jar
