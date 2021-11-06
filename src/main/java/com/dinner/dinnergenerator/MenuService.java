@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class MenuService {
     
     public String menuItem(String type) throws Exception{
-        dinnerScript("meats");
+        dinnerScript(type);
         File script = new File(type + "_dinner.sh");
         while(!script.exists()){
             this.wait();
