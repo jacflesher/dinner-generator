@@ -1,0 +1,6 @@
+rice
+corn
+carrots
+bread
+beans
+potatoes

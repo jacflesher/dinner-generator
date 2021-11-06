@@ -1,0 +1,8 @@
+chicken
+fish
+beef
+pork
+shrimp
+venison
+lamb
+turkey
